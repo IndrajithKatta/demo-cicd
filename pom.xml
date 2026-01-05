@@ -9,7 +9,7 @@
 	<version>1.2.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>health_check_123</name>
+	<name>health-check-123</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
