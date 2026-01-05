@@ -44,7 +44,7 @@
 						<connectedAppClientSecret>${anypoint.password}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<businessGroupId>${anypoint.businessGroup}</businessGroupId>
-						<environment>dev</environment>
+						<environment>Dev</environment>
 						<target>DemoSpace</target>
 						<applicationName>${appname}</applicationName>
 						<replicas>1</replicas>
@@ -58,9 +58,6 @@
 							<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
 							<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
 						</secureProperties>
-						<properties>
-							<mule.env>dev</mule.env>
-						</properties>
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
